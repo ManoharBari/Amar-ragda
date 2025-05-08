@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="text-sm text-gray-600">
               <p className="font-semibold">Address:</p>
-              <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
+              <p>MJ College Rd, Ramdas Colony, Jalgaon, Maharashtra 425002, India</p>
             </div>
             <div className="text-sm text-gray-600">
               <p className="font-semibold">Contact:</p>
@@ -27,10 +27,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li><a href="#" className="hover:text-orange-600">Menu Items</a></li>
+              <li><a href="/menu" className="hover:text-orange-600">Menu Items</a></li>
               <li><a href="#" className="hover:text-orange-600">Special Offers</a></li>
-              <li><a href="#" className="hover:text-orange-600">Contact Us</a></li>
-              <li><a href="#" className="hover:text-orange-600">About Us</a></li>
+              <li><a href="/contact" className="hover:text-orange-600">Contact Us</a></li>
+              <li><a href="/about" className="hover:text-orange-600">About Us</a></li>
               <li><a href="#" className="hover:text-orange-600">Testimonials</a></li>
             </ul>
           </div>

@@ -7,11 +7,11 @@ const SnackShowcase = () => {
       title: "Ragda Pattice"
     },
     {
-      image: "image.png",
+      image: "kachori.png",
       title: "Samosa"
     },
     {
-      image: "image1.png",
+      image: "ragda.png",
       title: "Pani Puri"
     }
   ];

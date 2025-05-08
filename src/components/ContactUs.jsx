@@ -4,26 +4,19 @@ import { MapPin, Phone, Mail, Clock, ExternalLink } from 'lucide-react';
 const ContactUs = () => {
   const branches = [
     {
-      name: "Sydney CBD",
-      address: "Level 1, 12 Sample St, Sydney NSW 2000",
+      name: "Jaikisan Wadi",
+      address: "Jaikisan Wadi, Jalgaon, Maharashtra 425001, India",
       phone: "1800 123 456",
       hours: "Mon-Sun: 11:00 AM - 10:00 PM",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476727.3683529704!2d74.98786926269531!3d21.01537118906537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90fa312f711ed%3A0x219b9b9bc77a6ff5!2sAmar%20Ragda!5e0!3m2!1sen!2sus!4v1737986078448!5m2!1sen!2sus"
     },
     {
-      name: "Parramatta",
-      address: "Shop 23, 45 Church St, Parramatta NSW 2150",
+      name: "MJ College Rd",
+      address: "MJ College Rd, Ramdas Colony, Jalgaon, Maharashtra 425002, India",
       phone: "1800 123 457",
       hours: "Mon-Sun: 11:00 AM - 9:30 PM",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238362.1475017929!2d75.27076720297255!3d21.016332645098604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90f6ed281b505%3A0xab3544dab93ba16a!2sAmar%20Ragda%20MJ%20College%20branch!5e0!3m2!1sen!2sus!4v1737986404435!5m2!1sen!2sus"
     },
-    {
-      name: "Bondi Junction",
-      address: "Shop 5, 500 Oxford St, Bondi Junction NSW 2022",
-      phone: "1800 123 458",
-      hours: "Mon-Sun: 11:00 AM - 10:00 PM",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8773118760357!2d151.20544631521252!3d-33.86882028065787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sBondi%20Junction%20NSW%202022!5e0!3m2!1sen!2sau!4v1635130387654!5m2!1sen!2sau"
-    }
   ];
 
   const [selectedBranch, setSelectedBranch] = React.useState(branches[0]);

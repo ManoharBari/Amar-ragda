@@ -9,13 +9,13 @@ const MenuPage = () => {
           name: 'Amar Ragda',
           description: 'Spiced ragda served with crispy kachori and chutneys',
           price: '₹70',
-          image: 'image.png'
+          image: 'ragda.png'
         },
         {
           name: 'Kachori',
           description: 'Spicy lentil-filled pastry served with chutney',
           price: '₹18',
-          image: 'image1.png'
+          image: 'kachori.png'
         },
         {
           name: 'Samosa',

@@ -20,7 +20,7 @@ const Navbar = () => {
             to="/"
             className="flex items-center transform hover:scale-105 transition-transform duration-300"
           >
-            
+
             <img src='logo.jpg' width={100} className="ml-2" />
           </NavLink>
 
@@ -53,9 +53,11 @@ const Navbar = () => {
               </NavLink>
             ))}
 
-            <button className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 transform hover:scale-105 transition-all duration-300">
-              {('Visit')}
-            </button>
+            <a href="https://www.google.com/maps?ll=21.015367,75.56469&z=9&t=m&hl=en&gl=US&mapclient=embed&cid=2421700318010699765">
+              <button className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800 transform hover:scale-105 transition-all duration-300">
+                Visit
+              </button>
+            </a>
           </div>
         </div>
       </div>

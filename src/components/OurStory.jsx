@@ -7,20 +7,14 @@ const OurStory = () => {
       year: "1957",
       title: "The Beginning",
       description: "Started as a small street food stall in the heart of the city",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80"
+      image: "shop.png"
     },
     {
-      year: "1975",
+      year: "2010",
       title: "First Restaurant",
       description: "Opened our first brick-and-mortar restaurant",
-      image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80"
+      image: "shop2.png"
     },
-    {
-      year: "1995",
-      title: "Expansion",
-      description: "Expanded to multiple locations across the city",
-      image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80"
-    }
   ];
 
   const values = [

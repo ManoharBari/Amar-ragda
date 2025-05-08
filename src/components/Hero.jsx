@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <div className="relative h-[400px] animate-slide-in">
             <img
-              src="image.png"
+              src="ragda.png"
               alt="Traditional Indian Street Food"
               className="w-full h-full object-cover rounded-lg shadow-xl transform hover:scale-105 transition-all duration-500"
             />
